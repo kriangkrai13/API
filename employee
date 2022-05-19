@@ -1,0 +1,3 @@
+Link: </api/v1/changelogs?perPage=10&page=3>; rel="next",
+  </api/v1/changelogs?perPage=10&page=1>; rel="prev",
+  </api/v1/changelogs?perPage=10&page=8>; rel="last"
