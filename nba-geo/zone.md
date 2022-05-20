@@ -1,4 +1,4 @@
-# Zone (ภูมิภาค)
+# Zone (เขต)
 ## https://api.nbadigitalservice.com/api/nba-geo
 
 ### การดึงข้อมูลของ Zone ทั้งหมด
