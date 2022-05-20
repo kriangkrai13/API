@@ -1,6 +1,6 @@
 # Amphure (อำเภอ)
 
-## https://api.nbadigitalservice.com/api/nba-gro
+## https://api.nbadigitalservice.com/api/nba-geo
 
 ### การดึงข้อมูลของ amphure ทั้งหมด
 
