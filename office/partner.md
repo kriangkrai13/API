@@ -2,16 +2,16 @@
 # Partner
 ## https://api.nbadigitalservice.com/v1/office
 
-### การดึงข้อมูลของ employee ทั้งหมด
+### การดึงข้อมูลของ partner ทั้งหมด
 ```http
 GET /partner
 ```
-### การดึงข้อมูลของ employee ผ่านไอดี
+### การดึงข้อมูลของ partner ผ่านไอดี
 ```http
 GET /partner/:_id 
 _id=62860054821f7b69619f254
 ```
-### การเพิ่มข้อมูล employee
+### การเพิ่มข้อมูล partner
 ```http
 POST /partner
 ```
@@ -36,7 +36,7 @@ Body
 | `partner_status` | `date` | **สถานะการ** |
 | `partner_timestamp` | `date` | **วันเวลาที่แก้ไขล่าสุด** |
 
-### การแก้ไขข้อมูล employee
+### การแก้ไขข้อมูล partner
 ```http
 PUT /partner/:_id
 _id=62860054821f7b69619f254
@@ -62,7 +62,7 @@ Body
 | `partner_status` | `date` | **สถานะการ** |
 | `partner_timestamp` | `date` | **วันเวลาที่แก้ไขล่าสุด** |
 
-### การลบข้อมูล employee
+### การลบข้อมูล partner
 ```http
 DELETE /partner/:_id
 _id=62860054821f7b69619f254

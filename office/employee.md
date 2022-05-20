@@ -16,8 +16,8 @@ _id=62860054821f7b69619f254
 POST /employee
 ```
 Body
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
+| Parameter | Type | Description | Default |
+| :--- | :--- | :--- | :--- |
 | `emp_name` | `string` | **ชื่อ-นามสกุลพนักงาน** |
 | `emp_tel` | `string` | **เบอร์โทรติดต่อ** |
 | `emp_address` | `string` | **ที่อยู่ของพนักงาน** |
@@ -33,7 +33,7 @@ Body
 | `emp_bank_number` | `string` | **เลขบัญชี** |
 | `emp_pic` | `string` | **รูปพนักงาน** |
 | `emp_status` | `string` | **สถานะการ** |
-| `emp_timestamp` | `date` | **วันเวลาที่แก้ไขล่าสุด** |
+| `emp_timestamp` | `date` | **วันเวลาที่เพิ่มข้อมูล** | **default: new Date()** |
 
 ### การแก้ไขข้อมูล employee
 ```http
