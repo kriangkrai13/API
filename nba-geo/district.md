@@ -1,6 +1,6 @@
 # District (จังหวัด)
 
-## https://api.nbadigitalservice.com/api/nba-gro
+## https://api.nbadigitalservice.com/api/nba-geo
 
 ### การดึงข้อมูลของ district ทั้งหมด
 
