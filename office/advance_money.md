@@ -21,7 +21,7 @@ Body
 | :--- | :--- | :--- | :--- |
 | `avm_owner` | `string` | **_id เจ้าของรายงาน** |
 | `avm_amount` | `number` | **จำนวนเงิน** |
-| `avm_status` | `date` | **สถานะรายงาน** | **default: waiting**|
+| `avm_status` | `string` | **สถานะรายงาน** | **default: waiting**|
 | `avm_timestamp` | `date` | **วันที่ทำรายการ** |**default: new Date()** |
 
 
@@ -35,7 +35,7 @@ Body
 | :--- | :--- | :--- | :--- |
 | `avm_owner` | `string` | **_id เจ้าของรายงาน** |
 | `avm_amount` | `number` | **จำนวนเงิน** |
-| `avm_status` | `date` | **สถานะรายงาน** | **default: waiting**|
+| `avm_status` | `string` | **สถานะรายงาน** | **default: waiting**|
 | `avm_timestamp` | `date` | **วันที่ทำรายการ** |**default: new Date()** |
 
 ### การลบข้อมูล advance_money
