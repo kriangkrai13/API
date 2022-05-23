@@ -20,6 +20,7 @@ Body
 | :--- | :--- | :--- | :--- |
 | `partner_name` | `string` | **ชื่อ-นามสกุล** |
 | `partner_tel` | `string` | **เบอร์โทรติดต่อ** |
+| `partner_iden` | `string` | **เลขบัตรประจำตัวประชาชน** |
 | `partner_level` | `string` | **ระดับ เขต/ภาค** |
 | `partner_sublevel` | `string` | **ระดับ เขต/ภาค เช่น 1 2 3 4 เป็นต้น** |
 | `partner_address` | `string` | **ที่อยู่** |
@@ -46,6 +47,7 @@ Body
 | :--- | :--- | :--- | :--- |
 | `partner_name` | `string` | **ชื่อ-นามสกุล** |
 | `partner_tel` | `string` | **เบอร์โทรติดต่อ** |
+| `partner_iden` | `string` | **เลขบัตรประจำตัวประชาชน** |
 | `partner_level` | `string` | **ระดับ เขต/ภาค** |
 | `partner_sublevel` | `string` | **ระดับ เขต/ภาค เช่น 1 2 3 4 เป็นต้น** |
 | `partner_address` | `string` | **ที่อยู่** |
