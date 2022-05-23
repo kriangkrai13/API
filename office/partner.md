@@ -16,8 +16,8 @@ _id=62860054821f7b69619f254
 POST /partner
 ```
 Body
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
+| Parameter | Type | Description | Default |
+| :--- | :--- | :--- | :--- |
 | `partner_name` | `string` | **ชื่อ-นามสกุล** |
 | `partner_tel` | `string` | **เบอร์โทรติดต่อ** |
 | `partner_level` | `string` | **ระดับ เขต/ภาค** |
@@ -26,15 +26,15 @@ Body
 | `partner_district` | `string` | **ตำบล** |
 | `partner_amphur` | `string` | **อำเภอ** |
 | `partner_province` | `string` | **จังหวัด** |
-| `partner_username` | `number` | **รหัสผ่านการเข้าสู่ระบบ** |
-| `partner_password` | `date` | **ระดับการเข้าถึงข้อมูล**
-| `partner_salary` | `date` | **เงินเดือน** |
+| `partner_username` | `string` | **รหัสผ่านการเข้าสู่ระบบ** |
+| `partner_password` | `string` | **ระดับการเข้าถึงข้อมูล**
+| `partner_salary` | `number` | **เงินเดือน** |
 | `partner_bank` | `string` | **ชื่่อธนาคาร** |
 | `partner_bank_number` | `string` | **เลขบัญชี** |
 | `partner_start` | `date` | **วันที่เริ่มงาน**| |
 | `partner_end` | `date` | **วันที่ออกจากงาน** |
-| `partner_status` | `date` | **สถานะการ** |
-| `partner_timestamp` | `date` | **วันเวลาที่แก้ไขล่าสุด** |
+| `partner_status` | `string` | **สถานะการ** |
+| `partner_timestamp` | `date` | **วันเวลาที่แก้ไขล่าสุด** | **default: new Date()** |
 
 ### การแก้ไขข้อมูล partner
 ```http
@@ -42,8 +42,8 @@ PUT /partner/:_id
 _id=62860054821f7b69619f254
 ```
 Body
-| Parameter | Type | Description |
-| :--- | :--- | :--- |
+| Parameter | Type | Description | Default |
+| :--- | :--- | :--- | :--- |
 | `partner_name` | `string` | **ชื่อ-นามสกุล** |
 | `partner_tel` | `string` | **เบอร์โทรติดต่อ** |
 | `partner_level` | `string` | **ระดับ เขต/ภาค** |
@@ -52,15 +52,15 @@ Body
 | `partner_district` | `string` | **ตำบล** |
 | `partner_amphur` | `string` | **อำเภอ** |
 | `partner_province` | `string` | **จังหวัด** |
-| `partner_username` | `number` | **รหัสผ่านการเข้าสู่ระบบ** |
-| `partner_password` | `date` | **ระดับการเข้าถึงข้อมูล**
-| `partner_salary` | `date` | **เงินเดือน** |
+| `partner_username` | `string` | **รหัสผ่านการเข้าสู่ระบบ** |
+| `partner_password` | `string` | **ระดับการเข้าถึงข้อมูล**
+| `partner_salary` | `number` | **เงินเดือน** |
 | `partner_bank` | `string` | **ชื่่อธนาคาร** |
 | `partner_bank_number` | `string` | **เลขบัญชี** |
 | `partner_start` | `date` | **วันที่เริ่มงาน**| |
 | `partner_end` | `date` | **วันที่ออกจากงาน** |
-| `partner_status` | `date` | **สถานะการ** |
-| `partner_timestamp` | `date` | **วันเวลาที่แก้ไขล่าสุด** |
+| `partner_status` | `string` | **สถานะการ** |
+| `partner_timestamp` | `date` | **วันเวลาที่แก้ไขล่าสุด** | **default: new Date()** |
 
 ### การลบข้อมูล partner
 ```http
