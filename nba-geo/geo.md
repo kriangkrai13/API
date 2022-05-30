@@ -15,7 +15,7 @@ post /geo
 
 ### การดึงข้อมูลของ GEO ของ NBA ที่จัดขึ้นเอง ทั้งหมด
 ```http
-post /geo-nba
+post /nba-geo
 ```
 
 ```javascript
