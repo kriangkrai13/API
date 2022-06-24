@@ -3,7 +3,7 @@
 ## https://api.nbadigitalworlds.com/v1/platform
 
 ```http
-POST /login_partner
+POST /login_members
 ```
 
 ```javascript
