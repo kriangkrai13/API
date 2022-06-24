@@ -1,6 +1,6 @@
 # Login Partner
 
-## https://api.nbadigitalworlds.com/platform/v1
+## https://api.nbadigitalworlds.com/v1/platform
 
 ```http
 POST /login_partner

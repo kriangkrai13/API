@@ -1,6 +1,6 @@
 # pay_register (การเบิกเงินล่วงหน้า)
 
-## https://api.nbadigitalworlds.com/platform/v1
+## https://api.nbadigitalworlds.com/v1/platform
 
 ### การดึงข้อมูลของ pay_register ทั้งหมด
 
